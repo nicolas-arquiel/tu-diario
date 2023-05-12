@@ -1,0 +1,1 @@
+export { FogotPasswordForm } from './FogotPasswordForm';

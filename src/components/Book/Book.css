@@ -1,0 +1,55 @@
+.book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #F8CBA6;
+    border: 1px solid #ffca8d;
+}
+
+.book:hover img {
+    opacity: 0.7;
+}
+
+.book:hover {
+    background-color: #FFE7CC;
+}
+
+.book:active {
+    transform: scale(.95);
+}
+
+.book:focus {
+    outline: none;
+}
+
+.book p {
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.delete-button {
+    background-color: #ff7b7b;
+    border-radius: 20px;
+    border: 1px solid #ffca8d;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    user-select: none;
+}
+
+.delete-button:hover {
+    background-color: #ff7b7bc2;
+}
+
+.delete-button:active {
+    transform: scale(.95);
+}
+
+.delete-button:focus {
+    outline: none;
+}

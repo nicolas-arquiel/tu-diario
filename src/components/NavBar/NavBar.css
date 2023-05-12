@@ -1,0 +1,66 @@
+.navbar-custom{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px ;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFF4D2;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .2), 0 10px 10px rgba(0, 0, 0, .2);
+}
+
+.link-custom{
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.link-custom li{
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+}
+
+
+.profile-icon-container:hover{
+    transition: .5s;
+    background-color: aliceblue;
+}
+
+.navbar-custom svg{
+    color: #2b2b2b;
+    font-size: 40px;
+    background-color: #F8CBA6;
+    border: 1px solid #ffca8d;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.navbar-custom svg:hover{
+    background-color: #FFE7CC;
+}
+
+.navbar-custom svg:active{
+    transform: scale(.95);
+}
+
+.navbar-custom svg:focus{
+    outline: none;
+}
+
+.go-back-div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.go-back-div h4{
+    margin: 0;
+    cursor: pointer;
+}
+
+.go-back-div h4:active{
+    transform: scale(.95);
+}

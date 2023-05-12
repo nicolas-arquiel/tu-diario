@@ -1,0 +1,13 @@
+input:checked+label {
+    border: 2px solid black;
+}
+
+.modal-custom{
+    background-color: #ECF2FF;
+}
+
+.form-custom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

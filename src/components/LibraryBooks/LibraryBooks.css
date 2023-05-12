@@ -1,0 +1,51 @@
+.books-container {
+    display: flex;
+    height: 50vh;
+    overflow-x: auto;
+    justify-content: flex-start;
+    padding: 20px;
+    gap: 30px;
+}
+
+.books-navigation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.books-navigation button {
+    margin: 0px 10px;
+    font-size: 24px;
+    color: #bf4e00;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.books-navigation button :hover {
+    color: #ff953e;
+}
+
+.books-navigation button:focus {
+    outline: none;
+}
+
+.books-navigation button>.left {
+    font-size: 40px;
+    transform: rotate(-90deg);
+
+}
+
+.books-navigation button>.right {
+    font-size: 40px;
+    transform: rotate(90deg);
+
+}
+
+.books-navigation button:active>.right {
+    transform: rotate(90deg) scale(0.95);
+}
+
+.books-navigation button:active>.left {
+    transform: rotate(-90deg) scale(0.95);
+}
