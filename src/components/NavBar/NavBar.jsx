@@ -72,7 +72,7 @@ export const NavBar = ({ userName }) => {
 						user ? (
 							[
 								<div key='loggedInMenu' >
-									<Link to='/' replace className='nav-link link-custom' >
+									<Link to='/tu-diario' replace className='nav-link link-custom' >
 										<MenuItem onClick={handleClose} >Inicio</MenuItem>
 									</Link>
 
